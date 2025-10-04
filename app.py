@@ -21,7 +21,7 @@ def send_friend_request(uid, token, results):
     payload = f"08a7c4839f1e10{encrypted_id}1801"
     encrypted_payload = encrypt_api(payload)
 
-    url = "https://client.ind.freefiremobile.com/RequestAddingFriend"
+    url = "https://client.bd.freefiremobile.com/RequestAddingFriend"
     headers = {
         "Expect": "100-continue",
         "Authorization": f"Bearer {token}",
